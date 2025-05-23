@@ -7,3 +7,12 @@ Agentic_Development
 
 <b>Run Level settings can override Agent Level settings. For example, you might temporarily provide different tools or instructions for a specific run.
 Agent Level settings can override Global Level settings. For instance, an agent can be configured to use a specific API key that is different from the global default.</b>
+
+
+- Agent Level Code is simple
+
+- Run level Code uses 
+  from agents.run import RunConfig
+- Global Level Code uses
+  set_default_openai_api("chat_completions"), set_default_openai_client(client)
+
